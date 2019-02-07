@@ -15,14 +15,14 @@
 					<div class="form-group">
 					    <label for="url" class="control-label col-sm-2">Ingredientes</label>
 					    <div class="col-sm-8">
-					        <textarea name="ingredients" rows="4" required='true' class="form-control" > {{ $recipe['ingredients'] ?? '' }} </textarea>
+					        <textarea name="ingredients" rows="4" required='true' class="form-control" style="border-radius: 20px !important;"> {{ $recipe['ingredients'] ?? '' }} </textarea>
 					    </div>
 					</div>
 
 					<div class="form-group">
 					    <label for="body" class="control-label col-sm-2">Método de Preparo</label>
 					    <div class="col-sm-8">
-					    	<textarea name="method_preparation" rows="5" required='true' class="form-control"> {{ $recipe['ingredients'] ?? '' }} </textarea>
+					    	<textarea name="method_preparation" rows="5" required='true' class="form-control" style="border-radius: 20px !important;"> {{ $recipe['method_preparation'] ?? '' }} </textarea>
 				        </div>
 					</div>
 
